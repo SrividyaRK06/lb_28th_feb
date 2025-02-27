@@ -27,8 +27,8 @@ if st.sidebar.button("predict"): #on clicking the button predict
     prediction=model.predict(scaled_input)
     #pred=prediction[0]  
     #st.success(f"Prediction :{prediction}") 
-if(prediction[0]==True):
-    st.success(f"The patient is reported to have diabetes")
+#if(prediction[0]==True):
+    st.success(f"prediction{prediction[0]}")
 #else:
  #   st.success(f"The pateint is reported to be free of diabetes")  
 #st.success(f"Prediction :{pred}")
